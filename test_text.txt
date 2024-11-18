@@ -1,1 +1,0 @@
-Sample text data for server-client testing.
