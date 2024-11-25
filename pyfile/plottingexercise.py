@@ -42,7 +42,7 @@ class DataProcessor:
         return annual_data
 
 
-reader = CSVFileReader('/Users/sophia/Desktop/Programming/De Anza python course/Carbon.csv')
+reader = CSVFileReader('Carbon.csv')
 reader.read_csv()
 df = reader.get_dataframe()
 processor = DataProcessor(df)
